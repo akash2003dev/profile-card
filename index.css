@@ -1,0 +1,100 @@
+*{
+    margin:0 ;
+    padding: 0%;
+}
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: auto auto;
+    height: 55vh;
+    width: 25vw;
+    width: 52vmin;
+    
+    border-radius: 10px;
+    text-align: center;
+    font-weight:50;
+    margin-top: 10%;
+    background-color: rgb(245, 235, 215);
+}
+.logo{
+    background-image: url(icons/IMG_20220815_232229.jpg);
+    height: 120px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border-bottom: 4px solid rgb(44, 131, 231);;
+   background-size:cover;
+    
+
+}
+.upper{
+background-color: rgb(44, 131, 231);
+    width: 100%;
+    height: 35%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+.lower{
+    width: 100%;
+    height: 70%;
+  
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+h2{
+    margin-top: 24px;
+    font-size: 30px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+    
+    
+}
+.btn{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 25px;
+}
+button{
+    margin-top: 10px;
+    border-radius: 15px;
+    border-color:rgb(44, 131, 231);
+    padding: 8px 12px;
+    color: white;
+    background-color:  rgb(44, 131, 231);
+}
+.bottom{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.bottom .icon{
+    width: 80px;
+    height: 20px;
+    
+}
+.bottom .icon img{
+    width: 15px;
+    height: 15px;
+}
+#comm{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
